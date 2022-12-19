@@ -1,0 +1,63 @@
+body{
+  background-color:rgb(189, 167, 236);
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+  color:white;
+}
+
+#number-input {
+  width: 350px;
+  height: 60px;
+  text-align: center;
+  margin: 1.5%;
+}
+.guessForm {
+  margin: 20px auto 0;
+  
+  outline: none;
+  padding: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  border: 1px solid #aaa;
+  color: gray;
+  }
+
+
+#submit-btn {
+    border: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: rgb(99, 99, 202);
+    color: white;
+    transition: .3s;
+    margin: 10px 0;
+    text-shadow: 1px 2px 0 rgb(99, 99, 202);
+
+  }
+
+p, h1, h4, .btn {
+  margin: 10px;
+}
+
+h1 {
+  margin: 50px;
+}
+
+.background {
+  background-color:rgb(178, 178, 230) ;
+}
+
+p {
+	font-size: 16px;
+  padding-top: 10px;
+}
+
+img {
+  width: 400px;
+  height: 350px;
+  margin-top: 50px;
+}

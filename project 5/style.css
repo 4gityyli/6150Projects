@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: calc(100vw - 25px);
+  height: 100vh;
+  display: block;
+  text-align: center;
+  background: #4682B4;
+  color: white;  
+  font-family: "Open Sans"
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#output {
+  font-family: 'Special Elite', cursive;
+  font-size: 32px;
+  color: white;
+}
+
+h1,h2 { 
+  color: Special Elite;
+}
+label{
+  display:block;
+}

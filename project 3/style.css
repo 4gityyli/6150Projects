@@ -1,0 +1,96 @@
+html,body{
+  margin: 0;
+  height: 100% 100%;
+  background: linear-gradient(15deg, #9b4dbc, #6edffb);
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #f5f5f5;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  margin: -.1em 0 1em;
+}
+
+.circle {
+  position: relative;
+  margin: 0 auto 3em;
+  height: 9em;
+  width: 9em;
+  border-radius: 50%;
+  background: #999 url(images/WechatIMG774.jpeg) 80% 0%;
+  background-size: 10em 10em;
+  box-shadow: 0 0 0 0.8em rgba(255,255,255,0.3);
+}
+.nav div {
+  text-align: center;
+  text-shadow: 0 0 7px rgba(10, 86, 113, 0.3);
+  font-size: 1.2em;
+  line-height: 2em;
+  height: 2em;
+  padding: 0 1em;
+  margin: 0 10px;
+  background: rgba(30, 96, 218, 0.3);
+  border-radius: 4px;
+  transition: all 100ms;
+  float: left;
+}
+
+#content p {
+  text-align:center; 
+  
+ }
+ 
+ #content article p {
+  text-align: left;
+  
+ }
+ 
+ #content{
+  margin:auto;
+  text-align: center;
+  font-size: 1.2em;
+  max-width:800px;
+  padding:50px;
+  width:75%;
+  font-family: 'Open Sans', sans-serif;
+   
+ }
+ #about {
+  text-align: center;
+  color: white;
+  margin: 0px 0 20px 0;
+  padding: 50px;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+#puppy{
+  text-align: center;
+  color: white;
+  margin: 0px 0 20px 0;
+  padding: 50px;
+  font-size: 1.2em;
+ }
+ #cooking{
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+ }
+ #likes {
+  float: right;
+  margin-right: 20%;
+  text-align: left;
+  line-height: 30px;
+  list-style-position: outside;
+}
+.img-responsive{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
